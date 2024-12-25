@@ -131,13 +131,11 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'senseistrategyoffical@gmail.com'
 EMAIL_HOST_PASSWORD = 'mzix uqcg crpi myin'
 
-# CORS settings
-CORS_ALLOW_ALL_ORIGINS = True  # Geliştirme sırasında tüm orijinlere izin ver
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:3000",  # Gerekirse belirli frontend URL'lerini ekleyin
-# ]
+ CORS_ALLOWED_ORIGINS = [
+    "https://senseistrategy.com",
+    "https://www.gamesenseistrategy.com",
+]
 
-CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1',
